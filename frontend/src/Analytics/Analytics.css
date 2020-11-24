@@ -1,0 +1,55 @@
+.analytics {
+  background-image: linear-gradient(to bottom right, lightblue, white);
+  height: 100vh;
+}
+
+#react-linechart-1606204862120 {
+  background-color: white !important;
+  box-shadow: 2px 3px 9px 1px grey !important;
+  border-radius: 21px !important;
+}
+
+.date-container {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.start-date-container {
+  align-items: center;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.end-date-container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.start-date-line {
+  margin-right: 8px;
+}
+
+.end-date-line {
+  margin-right: 8px;
+}
+
+.line-chart {
+  margin-top: 20px;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  background-color: white !important;
+  box-shadow: 2px 3px 9px 1px grey !important;
+  border-radius: 21px !important;
+  padding-bottom: 7px;
+}

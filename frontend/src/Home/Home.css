@@ -1,0 +1,49 @@
+.home {
+  height: 100vh;
+}
+
+.login-container {
+  /* margin-top: 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 563px;
+  background-image: linear-gradient(to bottom right, #4c69ba, #db4a39);
+}
+
+.login-box {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  box-shadow: 2px 3px 9px 1px grey;
+  border-radius: 21px;
+  height: 300px;
+  width: 390px;
+}
+
+.login-line {
+  margin-top: 15px;
+  margin-bottom: 44px;
+  font-size: 36px;
+}
+
+.kep-login-facebook {
+  width: 290px;
+  border-radius: 18px !important;
+  font-size: 19px !important;
+}
+
+.google-login-button {
+  color: white !important;
+  width: 290px !important;
+  font-size: 21px !important;
+  border-radius: 15px !important;
+  height: 53px !important;
+  font-weight: 700 !important;
+  font-family: Helvetica, sans-serif !important;
+  justify-content: center !important;
+  display: flex !important;
+  background-color: #db4a39 !important;
+}
